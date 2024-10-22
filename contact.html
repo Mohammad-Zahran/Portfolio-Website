@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Those are some fonts I used to my portfolio-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
     <link rel="stylesheet" href="style.css">
-    <title>Projects</title>
+    <title>Contact Us</title>
 </head>
 
 <body>
@@ -39,39 +42,32 @@
     </nav>
 
     <main>
-        <section class="projects-section">
-            <h2>My Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <img src="images/coffeshop.jpg" alt="Project 1">
-                    <h3>Green Tea</h3>
-                    <p>Created an ecomerce Tea Selling Website using php, bootstrap and sql</p>
-                </div>
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
 
-                <div class="project">
-                    <img src="images/netflix.jpg" alt="Project 2">
-                    <h3>Netflix HomePage</h3>
-                    <p>I created a clone for the netflix Homepage using HTML and CSS</p>
-                </div>
+            <div class="group">
+                <div class="text">
+                    Thank you for visiting my portfolio! If you have any questions, opportunities, or would like to collaborate on exciting projects, feel free to reach out. Whether you’re looking for a web developer, have a freelance project in mind, or simply want to connect, I’d love to hear from you. Please use the form below or contact me directly through my email or social media profiles. Let's build something amazing together! 
+            </div>
 
-                <div class="project">
-                    <img src="images/restaurant.webp" alt="Project 3">
-                    <h3>Restaurant Management System</h3>
-                    <p>Created a Highly Detailed RMS using MERN Stack Technology such as React.js, Express.js, Mongo DB, and Firebase</p>
-                </div>
+            
 
-                <div class="project">
-                    <img src="images/cc.jpg" alt="Project 4">
-                    <h3>Currency Converter</h3>
-                    <p>I made a Currency Converter Website Using an API.</p>
-                </div>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>© 2024 Mohammad Zahran. All rights reserved.</p>
-    </footer>
 </body>
 
 </html>

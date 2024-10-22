@@ -303,6 +303,75 @@ nav .right .mail-link {
   filter: brightness(.9);
 }
 
+.resume-section {
+  background-color: #fff;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #4a76ee;
+}
+
+.resume-section h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #4a76ee;
+  padding-bottom: 10px;
+}
+
+.resume-section p, .resume-section ul {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume-section ul li {
+  margin-bottom: 20px;
+}
+
+.resume-section strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.download-resume {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.download-resume a {
+  display: inline-block;
+  background-color: #4a76ee;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-resume a:hover {
+  background-color: #395bbd;
+}
+
+i {
+  margin-right: 10px;
+}
+
+
 
 
 
